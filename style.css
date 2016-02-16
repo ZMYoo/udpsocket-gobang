@@ -1,0 +1,61 @@
+#main {
+    border-image: url('images/bg.jpg');
+}
+QLabel#score_black {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+QLabel#score_white {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+QLabel#nickname_black,QLabel#nickname_white {
+    width: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+QWidget#buttons QPushButton {
+    height: 30px;
+    width: 100px;
+    background-color: wheat;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+QWidget#buttons QPushButton:hover {
+    background-color:antiquewhite;
+}
+
+QWidget QTextEdit {
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 12px;
+}
+QWidget#chat QLineEdit {
+    height: 23px;
+    font-size: 12px;
+}
+QWidget#chat QLineEdit:focus {
+    background-color: bisque;
+}
+QWidget#chat QPushButton {
+    background-color: wheat;
+    color:black;
+    font-size: 12px;
+    height: 20px;
+}
+QWidget#chat QPushButton:hover {
+    background-color: antiquewhite;
+}
+QDialog#hall QLabel {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    border: 2px solid sandybrown;
+}
+QDialog#hall QMessageBox QLabel {
+    font-size: 12px;
+    border: none;
+}
